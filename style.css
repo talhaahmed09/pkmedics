@@ -1,0 +1,103 @@
+.html{
+    font-size: 62.5%; /* 1rem =10px; 10px/16px = 62.5% */
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+  
+    font-family: 'ArialMT';
+    width:100vw;
+}
+
+img {
+    max-width: 100%;
+}
+
+p{
+	font-size:20px;
+}
+
+p:last-child{
+	margin-bottom:0;
+}
+
+.mb{
+    margin-bottom: 30px;
+}
+
+.mt{
+    padding-top: 2rem;
+}
+.text-align{
+    text-align: center !important;
+}
+.center-text{
+    text-align: center;
+}
+
+.heading{
+    font-size:50px;
+	font-family: 'Arial-BoldMT';
+	color:#000;
+    margin-bottom:30px;
+    line-height: 1.2;
+    
+}
+
+
+
+/* Brands */
+
+.trust-test{
+    background: #ffffff;;
+   
+}
+.logos{
+margin: 4rem 5rem;
+
+}
+
+
+.logos  span{
+	display:inline-block;
+    padding:30px 35px;
+  
+}
+
+
+/* product */
+.container-1{
+    background-color: #000;
+    
+}
+.card{
+    height: 20rem;
+    width: 250px;
+}
+.cardLink:hover{
+    color:rgb(8,250,8);
+}
+#price{
+    font-size: 20px;
+    color: rgb(8, 250, 8);
+    font-weight: 400;
+}
+#price:hover{
+    color: rgb(154, 207, 154);
+}
+.image{
+    height:55% ;
+    object-fit: fill;
+}
+.logoImage{
+    height: 8vh;
+    width: 4vw;
+}
